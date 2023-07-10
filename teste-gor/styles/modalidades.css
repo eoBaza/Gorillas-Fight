@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+.modalidades {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #011b705d; */
+    width: 100%;
+    max-width: 1080px;
+    margin: 10px auto;
+    padding: 40px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 30px;
+}
+
+.mod-content {
+    padding: 30px;
+    width: 50%;
+    min-width: 300px;
+    margin: 20px auto;
+}
+
+.mod-content img {
+    width: 50%;
+    border-radius: 10%;
+}
+
+.mod-content h3 {
+    text-transform: uppercase;
+}
+
+#mod-h1 {
+    width: 20%;
+    text-align: center;
+    border-bottom: 3px solid #03279e5d;
+}
+.card{
+    width: 100%;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card .treino-card{
+    max-width: 500px;
+    /* height: 310px; */
+    position: relative;
+    margin: 20px; 
+    padding: 30px;
+    background-color: rgb(231, 223, 223);
+    border: 2px solid #03279efd;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;  
+    box-shadow: 20px 20px 50px rgb(13, 12, 12);
+ 
+}
+/* .card .treino-card:hover{
+    height: 500px;
+} */
+.card .image{
+    position: relative;
+    width: 270px;
+    /* height: 270px; */
+    z-index: 1;
+}
+.card .image img{
+    max-width: 100%;
+    border-radius: 20px;
+    border: 1px solid #03279e;
+
+}
+.card .treino-card .text{
+    position: relative;
+    text-align: center;
+    margin-top: -38%;
+    padding: 10px;
+    color: #03279e;
+    transition: 0.3s ease-in-out;
+}
+
+.treino-card h2 {
+    text-align: center;
+    padding: 10px;
+    color: #03279e;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.treino-card p {
+    text-align: center;
+    color: #03279e;
+}
+.treino-card h3{
+    color: #03279e;
+}
+
+
+.card-content {
+    /* width: 100%; */
+    padding: 20px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 968px) {
+    .card-content {
+        flex-direction: column;
+        /* margin-bottom: 100px; */
+        padding: 0;
+    }
+
+    #mod-h1 {
+        width: 200px;
+    }
+}

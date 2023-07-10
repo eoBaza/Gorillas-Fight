@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+
+/* Localização */
+.localizacao {
+    text-align: center;
+    margin-top: 10px;
+    padding: 50px;
+    background-image: url(../img/Screenshot_4\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.localizacao h1 {
+    border-bottom: 2px solid white;
+    width: 40%;
+    margin: 40px;
+    text-transform: uppercase;
+    margin-left: 29.5%;
+}
+
+.localizacao iframe {
+    width: 50%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.local h1 {
+    margin-top: -8%;
+    width: 17%;
+    text-align: center;
+    border-bottom: 3px solid #03279e5d;
+
+}
+
+.icon-mapa {
+    margin-bottom: -6%;
+    margin-left: -36.5%;
+    width: 2rem;
+}

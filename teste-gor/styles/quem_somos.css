@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+.qs-content {
+    /* background-color: rgba(87, 0, 0, 0.356); */
+    width: 100%;
+    max-width: 1080px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 30px;
+}
+
+.content img {
+    width: 30%;
+    min-width: 200px;
+    margin: 20px 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p {
+    width: 50%;
+    margin: 30px;
+}
+.somos{
+    width: 17%;
+    text-align: center;
+    border-bottom: 3px solid #c51111;
+
+}
+
+@media screen and (max-width: 968px) {
+    .somos {
+        width: 300px;
+    }
+}
