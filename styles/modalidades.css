@@ -92,6 +92,9 @@
     text-align: center;
     color: #03279e;
 }
+.treino-card h3{
+    color: #03279e;
+}
 
 .card-content {
     /* width: 100%; */
