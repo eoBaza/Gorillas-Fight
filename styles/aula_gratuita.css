@@ -21,3 +21,42 @@
     margin-left: 37%;
     border-radius:15px ;
 }
+
+.logos-icons{
+    display: flex;
+    margin-top: -10%;
+    margin-left: 66.5%;
+}
+
+@media screen and (max-width: 768px) {
+    .aula-gratuita {
+        /* background: linear-gradient(to right, rgb(8, 8, 8), rgba(0, 0, 0, 0.541)) ,url(../img/hd-wallpaper-g0128b789f_1280\ 1.png); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 50px;
+    }
+    .aula-gratuita h1 {
+        width: 200px;
+        margin: 0 auto;
+        background-color: transparent;
+    }
+    .aula-gratuita h2 {
+        display: none;
+    }
+    .logos-icons a {
+        /* width: 5px; */
+        margin: 20px;
+    }
+    .logos-icons {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .aula-gratuita h1 {
+        margin-top: 50px;
+    }
+}

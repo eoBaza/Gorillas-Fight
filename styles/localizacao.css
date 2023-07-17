@@ -27,7 +27,8 @@
 }
 
 .local h1 {
-    margin-top: -8%;
+    padding-top: 2%;
+    /* margin-top: -8%; */
     width: 17%;
     text-align: center;
     border-bottom: 3px solid #03279e5d;
@@ -35,7 +36,25 @@
 }
 
 .icon-mapa {
-    margin-bottom: -6%;
-    margin-left: -36.5%;
+    margin-bottom: -4.6%;
+    margin-left: -41%;
     width: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .localizacao iframe {
+        display: none;
+    }
+    .icon-mapa {
+        display: none;
+    }
+    .localizacao h1 {
+        width: 80%;
+        margin: auto;
+        font-size: 24px;
+    }
+    .local h1 {
+        width: 40%;
+    }
 }

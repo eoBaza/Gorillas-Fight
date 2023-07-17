@@ -18,7 +18,7 @@ header {
 
 header img {
     margin: 50px auto;
-    width: 400px;
+    width: 25%;
     position: relative;
     top: 5;
     left: 50%;
@@ -39,9 +39,11 @@ header img {
 @media screen and (max-width: 1080px) {
     header {
         background-position: right center;
+        height: 100%;
     }
     header img {
         margin-bottom: 10px;
+        width: 30%;
     }
     .list-items {
         display: inline-block;
@@ -62,4 +64,13 @@ a {color: white;}
 header li {
     text-transform: uppercase;
     font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+        width: 50%;
+    }
+    .list-items {
+        display: none;
+    }
 }
